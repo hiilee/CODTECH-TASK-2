@@ -42,10 +42,15 @@ Searches for specific content in the HTML response (Index of /), which indicates
 Records potential misconfigurations based on findings.
 
 Technologies Used:
+
 Python: The core language used for scripting.
+
 Socket Programming: For port scanning (socket module).
+
 Regular Expressions (Regex): Used to parse and extract version information (re module).
+
 HTTP Requests: Handled via the requests library for fetching web server headers and page content.
+
 Error Handling: Employed to manage exceptions that might occur during HTTP requests (requests.RequestException).
 
 Conclusion:
